@@ -7,8 +7,9 @@ from telegram.ext import (
     ContextTypes,
     filters
 )
+import os
 
-TOKEN = "8563591187:AAGvwM4blmAW0PaGIFzo0pM2QtEsrFQOTQY"
+TOKEN = os.getenv("TOKEN")
 
 files = []  # simple storage
 
